@@ -11,9 +11,6 @@ t = "HTTPS/1.1 200 OK\r\nContent-Length: 1024\r\n Content-Type: text/html\r\n\r\
 client.send(bytes(t))
 
 
-print 'through clinet=>   '+client.recv(99999)
+print 'through clinet =>   '+client.recv(99999)
 com.close()
-
-
-
 
